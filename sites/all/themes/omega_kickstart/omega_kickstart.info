@@ -1,0 +1,129 @@
+name = Omega Kickstart
+description = Clean, simple starting point for building <a href="http://drupal.org/project/omega" target="_blank">Omega</a> subthemes for Commerce Kickstart. <br />HTML5, Responsive, ready to customize...
+core = 7.x
+engine = phptemplate
+screenshot = screenshot.png
+base theme = omega
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/omega_kickstart.js
+
+; ========================================
+; Regions
+; ========================================
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+regions[content] = Content
+regions[user_first] = User Bar First
+regions[user_second] = User Bar Second
+regions[branding] = Branding
+regions[menu] = Menu
+regions[breadcrumb] = Breadcrumb
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+regions[header_first] = Header First
+regions[header_second] = Header Second
+regions[preface_first] = Preface First
+regions[preface_second] = Preface Second
+regions[preface_third] = Preface Third
+regions[postscript_first] = Postscript First
+regions[postscript_second] = Postscript Second
+regions[postscript_third] = Postscript Third
+regions[footer_first] = Footer First
+regions[footer_second] = Footer Second
+regions[footer_third] = Footer Third
+regions[footer2_first] = Footer2 First
+regions[footer2_second] = Footer2 Second
+
+; ========================================
+; Zones
+; ========================================
+zones[header] = Header
+zones[content] = Content
+zones[footer] = Footer
+zones[footer2] = Footer 2
+zones[user] = User
+zones[branding] = Branding
+zones[menu] = Menu
+zones[preface] = Preface
+zones[postscript] = Postscript
+
+; ========================================
+; Css
+; ========================================
+css[global.css][name] = Your custom global styles
+css[global.css][description] = This file holds all the globally active custom CSS of your theme.
+css[global.css][options][weight] = 10
+version = 7.x-3.4
+project = omega_kickstart
+datestamp = 1374741378
+
+; ========================================
+; Settings
+; ========================================
+settings[toggle_logo] = 1
+settings[toggle_name] = 1
+settings[toggle_slogan] = 1
+settings[toggle_node_user_picture] = 1
+settings[toggle_comment_user_picture] = 1
+settings[toggle_comment_user_verification] = 1
+settings[toggle_favicon] = 1
+settings[toggle_main_menu] = 1
+settings[toggle_secondary_menu] = 1
+settings[omega_toggle_front_page_content] = 1
+settings[default_logo] = 1
+settings[logo_path] = ""
+settings[logo_upload] = ""
+settings[default_favicon] = 1
+settings[favicon_path] = ""
+settings[favicon_upload] = ""
+settings[omega_enable_warning] = 1
+settings[omega_toggle_extension_development] = 1
+settings[omega_enable_export_reminder] = 1
+settings[omega_rebuild_theme_registry] = 0
+settings[omega_rebuild_aggregates] = 0
+settings[omega_browser_width_indicator] = 0
+settings[omega_livereload] = 0
+settings[omega_livereload_script] = http://localhost:35729/livereload.js
+settings[omega_livereload_host] = localhost
+settings[omega_livereload_port] = 35729
+settings[omega_demo_regions] = 1
+settings[omega_demo_regions_list][content] = content
+settings[omega_demo_regions_list][user_first] = user_first
+settings[omega_demo_regions_list][user_second] = user_second
+settings[omega_demo_regions_list][branding] = branding
+settings[omega_demo_regions_list][menu] = menu
+settings[omega_demo_regions_list][breadcrumb] = breadcrumb
+settings[omega_demo_regions_list][sidebar_first] = sidebar_first
+settings[omega_demo_regions_list][sidebar_second] = sidebar_second
+settings[omega_demo_regions_list][header_first] = header_first
+settings[omega_demo_regions_list][header_second] = header_second
+settings[omega_demo_regions_list][preface_first] = preface_first
+settings[omega_demo_regions_list][preface_second] = preface_second
+settings[omega_demo_regions_list][preface_third] = preface_third
+settings[omega_demo_regions_list][postscript_first] = postscript_first
+settings[omega_demo_regions_list][postscript_second] = postscript_second
+settings[omega_demo_regions_list][postscript_third] = postscript_third
+settings[omega_demo_regions_list][footer_first] = footer_first
+settings[omega_demo_regions_list][footer_second] = footer_second
+settings[omega_demo_regions_list][footer_third] = footer_third
+settings[omega_demo_regions_list][footer2_first] = footer2_first
+settings[omega_demo_regions_list][footer2_second] = footer2_second
+settings[omega_toggle_extension_compatibility] = 1
+settings[omega_conditional_classes_html] = 1
+settings[omega_apple_touch] = 1
+settings[omega_cleartype] = 1
+settings[omega_handheld_friendly] = 1
+settings[omega_mobile_optimized] = 1
+settings[omega_viewport] = 1
+settings[omega_viewport_user_scaleable] = 1
+settings[omega_chrome_edge] = 1
+settings[omega_toggle_extension_layouts] = 0
+settings[omega_layout] = ""
+settings[omega_toggle_extension_assets] = 1
+settings[omega_libraries][selectivizr][status] = 1
+settings[omega_libraries][respond][status] = 1
+settings[omega_libraries][pie][status] = 1
+settings[omega_libraries][html5shiv][status] = 1

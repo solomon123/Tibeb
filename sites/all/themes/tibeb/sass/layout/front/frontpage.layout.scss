@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 19, 2015, 3:19:24 PM
+    Author     : sly11
+*/
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+@import "../../variables/_grids.scss";
+@import "../../variables/_colors.scss";
+
+//@import "../../variables/*";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+
+//.l-page{
+  //  @include clearfix;
+//}
+
+
+.l-main{
+ @include clearfix;
+}
+
+.l-header{
+   background: #AA708D;
+   height: 90px; 
+}
+
+.l-region--branding{
+
+
+    @include grid-span(3,1);
+    height: 80px;
+
+}
+
+
+
+.l-region--navigation{
+    @include grid-span(9,4);
+    height: 80px;
+}
+
+
+.l-region--highlighted{
+
+   height: 500px;
+   background: lightyellow;
+   background-image: url(../../../../../../default/files/hero_forest_nored.jpeg);
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
