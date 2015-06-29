@@ -1,7 +1,3 @@
-
-
-
-
 Ebenezer Information & Communication Center (EICc)
 
 Ethio Diaspora communication began with the aim of providing timely news, social and cultural information, opinions and analysis to the Ethiopian community. Ethio Diaspora Communication is one of the arms for the EICC. Through this branch, EICC engaged in the broadcast and production of Ethio Diaspora Radio programs. 
@@ -9,6 +5,12 @@ Ethio Diaspora communication began with the aim of providing timely news, social
 Tibebtube.com is going to be the sister compony, focusing on our TV programs as well as our Betibeb Enenure Poet night. Our site is under development all your comment are welcomed.
 
 Ethio Diaspora Radio.
+
+
+
+
+
+Drupal Instruction
 
 CONFIGURATION AN  FEATURES
 --------------------------
