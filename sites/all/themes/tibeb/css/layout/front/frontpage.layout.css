@@ -24,10 +24,14 @@ and open the template in the editor.
 
 /* line 42, ../../../sass/layout/front/frontpage.layout.scss */
 .l-header {
-  background: #AA708D;
-  height: 90px; }
+  background: #AA708D; }
+  /* line 13, ../../../../../../../../../../../home/ubuntu/.rvm/gems/ruby-1.9.3-p551@omega.tibeb/gems/toolkit-2.9.0/stylesheets/toolkit/_clearfix.scss */
+  .l-header:after {
+    content: "";
+    display: table;
+    clear: both; }
 
-/* line 47, ../../../sass/layout/front/frontpage.layout.scss */
+/* line 48, ../../../sass/layout/front/frontpage.layout.scss */
 .l-region--branding {
   width: 23.72881%;
   float: left;
@@ -36,7 +40,7 @@ and open the template in the editor.
   clear: none;
   height: 80px; }
 
-/* line 57, ../../../sass/layout/front/frontpage.layout.scss */
+/* line 58, ../../../sass/layout/front/frontpage.layout.scss */
 .l-region--navigation {
   width: 74.57627%;
   float: right;
@@ -45,10 +49,8 @@ and open the template in the editor.
   clear: none;
   height: 80px; }
 
-/* line 63, ../../../sass/layout/front/frontpage.layout.scss */
+/* line 64, ../../../sass/layout/front/frontpage.layout.scss */
 .l-region--highlighted {
-  height: 500px;
-  background: orange;
-  background-image: url(../../../../../../default/files/hero_forest_nored.jpeg); }
+  background: orange; }
 
 /*# sourceMappingURL=frontpage.layout.css.map */

@@ -6,10 +6,6 @@ Tibebtube.com is going to be the sister compony, focusing on our TV programs as 
 
 Ethio Diaspora Radio.
 
-
-
-
-
 Drupal Instruction
 
 CONFIGURATION AN  FEATURES

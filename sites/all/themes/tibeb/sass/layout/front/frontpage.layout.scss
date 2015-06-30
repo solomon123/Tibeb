@@ -41,7 +41,8 @@ and open the template in the editor.
 
 .l-header{
    background: #AA708D;
-   height: 90px; 
+   //height: 90px;
+ @include clearfix; 
 }
 
 .l-region--branding{
@@ -62,9 +63,9 @@ and open the template in the editor.
 
 .l-region--highlighted{
 
-   height: 500px;
+  // height: 500px;
    background: orange;
-   background-image: url(../../../../../../default/files/hero_forest_nored.jpeg);
+ //  background-image: url(../../../../../../default/files/hero_forest_nored.jpeg);
 }
 
 
